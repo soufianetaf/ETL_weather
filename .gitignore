@@ -1,0 +1,20 @@
+# 🔒 Fichiers secrets (Le plus important !)
+.env
+
+# 🐍 Fichiers générés automatiquement par Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Environnements virtuels (si tu en crées un plus tard)
+venv/
+env/
+.venv/
+
+# 🗄️ Bases de données locales
+*.db
+*.sqlite3
+
+# 🖥️ Fichiers système de ton ordinateur
+.DS_Store
+Thumbs.db
