@@ -17,5 +17,5 @@ def load_to_postgresql(df, db_user, db_password, db_host, db_port, db_name):
 
         print(f"[{df['data_heure'].iloc[0]}] données insérées dans PostgreSQL pour {df['ville'].iloc[0]}.")
 
-        except Exception as e: 
-            print ( f"Erreur lors du chargement dans PostgreSQL : {e}")
+    except Exception as e: 
+        print( f"Erreur lors du chargement dans PostgreSQL : {e}")

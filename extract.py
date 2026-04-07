@@ -2,7 +2,7 @@ import requests
 
 def extract_weather_data(city, api_key):
     " recupere les données météo brutes depuis l'API OpenWeatherMap. "
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}appid={api_key}&units=metric"
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
 
     try :
